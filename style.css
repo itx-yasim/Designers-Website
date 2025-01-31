@@ -1,0 +1,165 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+.header-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url(bed.png);
+
+    background-size: cover;
+    background-repeat:none;
+    background-attachment: fixed;
+
+
+    height:clamp(250px,53vw,750px);
+    font-size: clamp(40px,8vw,100px);
+    text-align:left;
+    color:whitesmoke;
+    flex-direction: column;
+    gap: 50px;
+}
+.header-line{
+    height: clamp(5px,1vw,17px);
+    width:clamp(80px,15vw,250px);
+    background-color: coral;
+}
+.page-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    width: 100%;
+    height:100%;
+    padding: 40px;
+    color:white;
+    background-color: #292D33;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.page-2-card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    width:230px;
+    height:270px;
+
+
+
+    border-style: solid;
+    border-width: 15px;
+    border-color:coral;
+
+
+
+}
+.page-2-cards{
+    width:230px;
+    height:270px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+button{
+    background-color: whitesmoke;
+    color:black;
+    font-size:15px;
+    padding:12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 14px;
+    width: 130px;
+}
+
+
+
+.page-3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+    padding: 40px;
+    box-sizing: border-box;
+    flex-wrap: wrap-reverse;
+}
+.page-3-cards{
+    width:250px;
+    height:320px;
+}
+.page-3-cards-pic{
+    width:250px;
+    height: 320px;
+}
+.page-3-card-4{
+    display: flex;
+    width: 250px;
+    height:320px;
+    align-items: center;
+    justify-content:center;
+    color:black;
+    font-size:33px;
+    border-style:solid;
+    border-color:coral;
+    border-width:15px;
+    box-sizing: border-box;
+}
+.page-3-text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-size: clamp(5px,5vw,23px);
+    color:black;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.page-4{
+    display: flex;
+    height: 100%;
+    padding:40px;
+    background-color: #292D33;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    color:white;
+    flex-wrap: wrap;
+}
+.page-4-cards{
+    display:flex;
+    height:100%;
+    width:440px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    text-align: center;
+}
+.page-4-cards-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
+.page-4-card-dsgr{
+    font-size: 28px;
+}
+.page-4-line{
+    height: 10px;
+    width:110px;
+    background-color: coral;
+    margin-top: -20px;
+}
